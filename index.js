@@ -9,6 +9,10 @@ app.get('/',(request,response) => {
 })
 
 
+app.get('/',(request,response) => {
+    return response.json({message:'Atualizou mesmo!'});
+    
+})
 app.post('/teste',(request,response) => {
     const {name,date} = request.body;
     
