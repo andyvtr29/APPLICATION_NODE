@@ -9,7 +9,7 @@ app.get('/',(request,response) => {
 })
 
 
-app.post('/teste',(request,response) {
+app.post('/teste',(request,response) => {
     const {name,date} = request.body;
     
     return response.json({name,date});
