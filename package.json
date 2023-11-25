@@ -1,0 +1,8 @@
+{
+  "name": "APPLICATION_NODE",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/andyvtr29/APPLICATION_NODE.git",
+  "author": "Andre Vitor <andrevtr29@gmail.com>",
+  "license": "MIT"
+}
