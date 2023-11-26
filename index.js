@@ -4,6 +4,10 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (request, response) => {
+  return response.json({ message: 'Server is Up' });
+});
+
+app.get('/outra-rota', (request, response) => {
   return response.json({ message: 'Atualizou mesmo!' });
 });
 
